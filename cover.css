@@ -23,42 +23,66 @@ a:hover{
  */
 html,
 body {
+	display: block;
+	margin: auto;
 	height: 100%;
 	max-width: 1500px;
 	background-color: #373E40;
 	color: #B7D5D4;
-	margin: auto;
 	font-family: 'Noto Sans', sans-serif;
 }
 h2 {
   font-size: 2.5em;
+	font-weight: bold;
 	margin: 0;
 }
 h1 {
   font-size: 1em;
+	font-weight: bold;
 	margin: 0;
 }
 p {
   font-size: .85em;
-	margin: .5em;
 }
 
 /* Div Specs */
-.name-menu div{
-	display: inline-block;
+.name-menu{
+	float: right;
+	width: 100%;
+	display: block;
 }
 .name{
-	width: 30%;
-	margin: 1em;
+	float: left;
+	width: 12em;
+	margin-left: 1em;
+	text-align: center;
 }
 .menu{
-	display: inline-block;
-	width: 40%;
 	float: right;
-	text-align: right;
+	margin: 2em;
 }
-.submenu{
-	margin: .5em;
+.submenu-left{
+	float: right;
+	width: 4em;
+	margin-right:..25em;
+	margin-bottom:.5em;
+	margin-left:.5em;
+  margin-top:.5em;
+	text-align: center;
+}
+.submenu-right{
+	float: right;
+	width: 4em;
+	margin-right:.5em;
+	margin-bottom:.5em;
+	margin-left:.25em;
+  margin-top:.5em;
+	text-align: center;
+}
+.mainpara{
+	position: static;
+	display:block;
+	margin: 1em;
 }
 
 img{
